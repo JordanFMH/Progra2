@@ -3,7 +3,13 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in); 
+		
+		Employee e = new Employee();
+	
+		//e.asignarDatos("Pedro", "Perez");
+		System.out.println(e.name);
+		
+		/*Scanner sc = new Scanner(System.in); 
 		User a = new User();
 
 		System.out.println("Ingrese Nombre");
@@ -20,6 +26,7 @@ public class Main {
 		a.generarServicio(servicio);
 		a.imprimirInfo();
 		
-		System.out.println("Acerquese al cubiculo: "+a.asignarCubiculo(1));
+		System.out.println("Acerquese al cubiculo: "+a.asignarCubiculo(1));*/
+		
 	}
 }

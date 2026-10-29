@@ -1,6 +1,9 @@
 package com;
 
 public class User {
+	{
+		System.out.println("Holaaaaaaaaaaaa 7.7");
+	}
 	String nombre ="";
 	String apellido ="";
 	String cedula ="";
@@ -22,9 +25,9 @@ public class User {
 	}
 	
 	public String ingresarDatosUser(String nom, String apell, String cedu){
-		nombre=nom;
-		apellido=apell;
-		cedula=cedu;
+		nombre = nom;
+		apellido = apell;
+		cedula = cedu;
 		return (nombre+ apellido+ cedula);
 	}
 	
