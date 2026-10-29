@@ -9,11 +9,6 @@ public class User {
 	
 	static int nTurno=0;
 	
-	public User() {
-		turnoAsignado = nTurno;
-		System.out.println(turnoAsignado);
-	}
-	
 	public String generarServicio( String servi) {
 		servicio=servi;
 		nTurno=nTurno+1; 
