@@ -1,4 +1,4 @@
-package com;
+package com.clase;
 import java.util.Scanner;
 
 public class Main {
