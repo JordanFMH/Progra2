@@ -16,7 +16,7 @@ public class Principal {
         
         System.out.println("------------------");
         System.out.println("CUENTAS BANCARIAS");
-        System.out.println("------------------");
+        System.out.println("------------------\n");
         System.out.println("-------CUENTA 1-------");
         System.out.println("Número: " + cuenta1.getNumeroCuenta());
         System.out.println("Titular: " + cuenta1.getTitular());
