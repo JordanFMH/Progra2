@@ -4,7 +4,23 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		
-		Persona p1 = new Persona("John");
+		Inmutable inmutable = new Inmutable(1,"New Class","Edum");
+		//OBJETO MUTABLE
+		/*mutable.setId(0);
+		mutable.setName("Class1");
+		mutable.setType("Object");*/
+		//OBJETO INMUTABLE
+		System.out.println(inmutable.getId()+" : "+inmutable.getName()+" : "+inmutable.getType());
+		
+		/*String temp = mutable.getName();
+		temp = temp+" : ";
+		temp = temp+mutable.getType();
+		System.err.println(temp);
+		for(int i = 0; 0<99; i++) {
+			temp = temp + i;
+		}*/
+		
+		/*Persona p1 = new Persona("John");
 		System.out.println("Persona 1: "+p1.getName());
 		Persona p2 = new Persona("Paul");
 		System.out.println("Persona 1: "+p2.getName());
@@ -12,7 +28,7 @@ public class Main {
 		Test.swap(p1, p2);
 		
 		System.out.println("Persona 1: "+p1.getName());
-		System.out.println("Persona 1: "+p2.getName());
+		System.out.println("Persona 1: "+p2.getName());*/
 		
 		/*Potencia p = new Potencia();
 		p.potencia(p.a);
