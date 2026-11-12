@@ -3,6 +3,7 @@ package com.clase.strings;
 public class Main {
 
 	public static void main(String[] args) {
+		/*
 		//Apuntan al mismo espacio de memoria en el string pool
 		String prefijo1 = "Alerta";
 		String prefijo2 = "Alerta"; //pool
@@ -47,7 +48,17 @@ public class Main {
 		logBuilder.delete(15, 25);
 		System.out.println(logBuilder);
 		logBuilder.reverse();
-		System.out.println(logBuilder);
+		System.out.println(logBuilder);*/
+		
+		/*final EmpleadoRecord empr= new EmpleadoRecord("John","Martinez"); //Al utilizar records, la instancia de la clase, los paramatros son final.
+		System.out.println(empr.name());
+		
+		
+		final Empleado emp = new Empleado("John","Martinez");
+		System.out.println(emp.getName());*/
+		
+		final EmpleadoRecord empr= new EmpleadoRecord("John");
+		System.out.println(empr);
 	}
 
 }

@@ -8,6 +8,14 @@ public class Empleado {
 		this.name = name;
 		this.lastname = lastName;
 	}
+	
+	/*public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}*/
 
 	public String getName() {
 		return this.name;
