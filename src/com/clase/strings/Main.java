@@ -3,6 +3,21 @@ package com.clase.strings;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		int limite = 100;
+		
+		Empleado emp = new Empleado();
+		emp.getWelcome("James");
+		
+		float peso = emp.getWeight(180);
+		//emp = null;
+		StringBuilder persona = new StringBuilder();
+		persona.append(emp.getName());
+		persona.append(" su peso es: ");
+		persona.append(peso);
+		
+		System.out.println(persona);
+		
 		/*
 		//Apuntan al mismo espacio de memoria en el string pool
 		String prefijo1 = "Alerta";
@@ -57,8 +72,8 @@ public class Main {
 		final Empleado emp = new Empleado("John","Martinez");
 		System.out.println(emp.getName());*/
 		
-		final EmpleadoRecord empr= new EmpleadoRecord("John");
-		System.out.println(empr);
+		/*final EmpleadoRecord empr= new EmpleadoRecord("John");
+		System.out.println(empr);*/
 	}
 
 }

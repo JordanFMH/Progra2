@@ -1,8 +1,12 @@
 package com.clase.strings;
 
 public class Empleado {
-	private final String name;
-	private final String lastname;
+	private /*final*/ String name;
+	private /*final*/ String lastname;
+	
+	public Empleado() {
+		
+	}
 	
 	public Empleado(String name, String lastName) {
 		this.name = name;
@@ -25,4 +29,12 @@ public class Empleado {
 		return this.lastname;
 	}
 	
+	public String getWelcome(String name) {
+		return "Hello my friend: "+name;
+	}
+	
+	public float getWeight(int pounds) {
+		float k = 0.45f;
+		return pounds * k;
+	}
 }
