@@ -3,8 +3,60 @@ package com.clase.strings;
 public class Main {
 
 	public static void main(String[] args) {
+		int[] b = new int[4];
 		
-		int limite = 100;
+		b[0] = 3;		
+		int c = b[0];
+		b[0] = 4;
+		
+		System.out.println(c);
+		System.out.println(b[0]);
+		
+		int[] b1 = new int[] {1,8,14};
+		
+		Empleado[] emps = new Empleado[3];
+		
+		/*Empleado em1 = new Empleado("Juan","Perez");
+		emps[0] = em1;
+		
+		Empleado em2 = em1; //new Empleado("Maria","Velazco");
+		em2.setName("Maria");
+		emps[0] = em2;
+		emps[0] = em1;*/
+		emps[0] = new Empleado("Juan","Perez");
+		emps[0].getLastName();
+		System.out.println(emps[1]);
+		System.out.println(emps[1].getName());
+		System.out.println(emps[1].getLastName());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*int limite = 100;
 		
 		Empleado emp = new Empleado();
 		emp.getWelcome("James");
@@ -16,7 +68,7 @@ public class Main {
 		persona.append(" su peso es: ");
 		persona.append(peso);
 		
-		System.out.println(persona);
+		System.out.println(persona);*/
 		
 		/*
 		//Apuntan al mismo espacio de memoria en el string pool

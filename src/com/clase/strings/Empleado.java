@@ -28,13 +28,21 @@ public class Empleado {
 	public String getLastName() {
 		return this.lastname;
 	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
 	
-	public String getWelcome(String name) {
+	/*public String getWelcome(String name) {
 		return "Hello my friend: "+name;
 	}
 	
 	public float getWeight(int pounds) {
 		float k = 0.45f;
 		return pounds * k;
-	}
+	}*/
 }
