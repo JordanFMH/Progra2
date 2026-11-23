@@ -8,6 +8,7 @@ public class Main {
 		boolean jugador1= true;
 		
 		Tablero tablero = new Tablero();
+		tablero.inicializar();
 		tablero.imprimirTablero();
 		
 		Scanner sc = new Scanner(System.in);
