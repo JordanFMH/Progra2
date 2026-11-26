@@ -9,6 +9,11 @@ public class Manager extends Employee{
 		this.teamSize = teamSize;
 	}*/
 	
+	@Override //SOBREESCRIBIENDO EL MÉTODO
+	public void setAsistance() {
+		System.out.println("El jefe está registrando su asistencia...");
+	}
+	
 	public int getTeamSize() {
 		return teamSize;
 	}

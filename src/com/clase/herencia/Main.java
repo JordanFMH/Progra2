@@ -5,11 +5,11 @@ public class Main {
 		Manager manager = new Manager();
 		manager.getLastName();
 		manager.setAge(18);
-		manager.setAsistence();
+		manager.setAsistance();
 		manager.reportProjectStatus();
 		Programmer programmer = new Programmer();
 		programmer.getLastName();
-		programmer.setAsistence();
+		programmer.setAsistance();
 		programmer.writeCode();
 	}	
 }

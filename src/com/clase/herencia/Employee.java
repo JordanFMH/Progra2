@@ -8,10 +8,6 @@ public class Employee {
 	private float experience;
 	private int age;
 	
-	public void setAsistence() {
-		System.out.println("Registrando asistencia...");
-	}
-	
 	/*public Employee(String name, String addres, String phoneNumber, float experience, int age) {
 		this.name = name;
 		this.addres = addres;
@@ -19,6 +15,10 @@ public class Employee {
 		this.experience = experience;
 		this.age = age;
 	}*/
+	
+	public void setAsistance() {
+		System.out.println("Registrando asistencia...");
+	}
 	
 	public String getLastName() {
 		return lastName;
