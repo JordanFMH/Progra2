@@ -2,7 +2,7 @@ package com.clase.arreglos;
 
 public class Main2 {
 	public static void main(String[] args) {
-		boolean[][] asistencia; //ERROR DE COMPILACION
+		/*boolean[][] asistencia; //ERROR DE COMPILACION
 		
 		asistencia [0] = new boolean[4]; //YOGA
 		asistencia [1] = new boolean[2]; //TAICHI
@@ -14,6 +14,6 @@ public class Main2 {
 			}
 		}
 		//asistencia[1][3] = false; //ERROR DE EJECUCION
-		asistencia[1][1] = false;
+		asistencia[1][1] = false;*/
 	}
 }
